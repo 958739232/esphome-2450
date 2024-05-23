@@ -60,10 +60,12 @@ namespace esphome::ld2450
        int target_count = 0;
        for (Target *target : targets)
       {
+            if(cintains_target(target)){
+                AllTargetCounter++;
+            }  
+      }
              
-             {
-                    target_count +=contains_target(target);
-       AllTargetCounter=  target_count ++   
+               
 
 
 #ifdef USE_BINARY_SENSOR
