@@ -63,7 +63,7 @@ namespace esphome::ld2450
              
              {
                     target_count +=contains_target(target);
-       All Target Counter=  target_count ++   
+       AllTargetCounter=  target_count ++   
 
 
 #ifdef USE_BINARY_SENSOR
@@ -72,7 +72,7 @@ namespace esphome::ld2450
 #endif
 #ifdef USE_SENSOR
         if (target_count_sensor_ != nullptr && (target_count_sensor_->state != target_count || !target_count_sensor_->has_state()))
-            target_count_sensor_->publish_state(All Target Counter);
+            target_count_sensor_->publish_state(AllTargetCounter);
 #endif
     }
 
