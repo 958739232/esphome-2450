@@ -57,7 +57,7 @@ namespace esphome::ld2450
         if (polygon_.size() < 3)
             return;
 
-       int target_count = 0;
+       
        for (Target *target : targets)
       {
             if(cintains_target(target)){
