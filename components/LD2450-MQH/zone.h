@@ -13,7 +13,7 @@ namespace esphome::ld2450
      * @brief Simple point class which describes Cartesian location.
      */
     
-        extern int All Target Counter;
+        extern int AllTargetCounter;
   
       class Point
     {
